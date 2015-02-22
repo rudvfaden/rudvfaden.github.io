@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Skal jeg differentiere for at kunne sige noget klogt i økonomi?"
-modified:
+modified: 2015-02-22
 excerpt: "Monotone Comparative Statics: kunsten at fastslå korrelation under 'svagere' antagelser"
 comments: true
 tags: [single crossing property, korrelation, monotone comparative statics, economic methods, danish ]
@@ -81,7 +81,7 @@ hvor $X,Y\in \mathbb{R}$ og $X_y\subset X$ er korrespondancen fra $Y$ til $X$  o
 1. $u$ har stigende forskelle i $(x,y)$  og
 2. $X_y=[g(y),h(y)]$  hvor $h,g:Y \rightarrow \mathbb{R}$ er voksende funktioner med $g\leq h$
 
-der gælder det at de maksimale og minimale løsninger til $x^*(y)$, $\overline{x}(y)$ og $\underline{x}(y)$ voksende funktioner. 
+der gælder det at de maksimale og minimale løsninger til $x^*(y)$, $\overline{x}(y)$ og $\underline{x}(y)$ er voksende funktioner. 
 
 <br><br>
 **Bevis:**
