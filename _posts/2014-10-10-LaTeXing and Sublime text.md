@@ -4,6 +4,7 @@ title: "The ultimate Latex setup"
 modified: "2014-10-10"
 excerpt: "Writing LaTeX with  Sublime Text, LaTeXing and git"
 tags: [latex,sublime text, git]
+comments: true
 ---
 <section id="table-of-contents" class="toc">
   <header>

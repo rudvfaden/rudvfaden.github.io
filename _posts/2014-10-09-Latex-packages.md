@@ -4,6 +4,7 @@ title: "LaTeX Packages You Should Use"
 modified: "2014-10-10"
 excerpt: "A collection of my favorite (and non-trivial) Latex packages"
 tags: [latex, latex packages]
+comments: true
 ---
 <section id="table-of-contents" class="toc">
   <header>
