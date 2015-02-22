@@ -7,5 +7,4 @@ tags: []
 comments: true
 ---
 
-# Comments feature added
 Now you can comment on posts using Disqus. 
