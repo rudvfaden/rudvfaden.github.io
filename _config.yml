@@ -1,0 +1,59 @@
+# Site wide configuration
+
+title:            Rud Faden
+locale:           en_US
+url:              
+
+
+# Jekyll configuration
+
+permalink:   /:categories/:title/
+markdown:    kramdown
+highlighter: pygments
+sass:
+  sass_dir: _sass
+  style: compressed
+gems:
+  - jekyll-sitemap
+
+kramdown:
+  auto_ids: true
+  footnote_nr: 1
+  entity_output: as_char
+  toc_levels: 1..6
+  use_coderay: false
+
+
+# Site owner
+owner:
+  name: Rud Faden
+  avatar: me.jpg
+  bio: "He who knows not and knows not he knows not: he is a fool - shun him. He who knows not and knows he knows not: he is simple - teach him. He who knows and knows not he knows: he is asleep - wake him. He who knows and knows he knows: he is wise - follow him."
+  email: rudfaden@gmail.com
+  disqus-shortname: rudfaden
+  twitter: rudfaden
+  facebook: rudfaden
+  google:
+    plus: RudFaden
+    analytics: UA-55602000-1
+    verify: MgE8SEZZuZ5z_vuXmf5Ivew1ICkPkdFpcmdaMyo9ojo
+    ad-client: 
+    ad-slot: 
+  bing-verify: 
+  github: rudvfaden
+  stackoverflow: /2702600/rud-faden
+  linkedin: rudfaden
+  instagram: #username
+  lastfm: #username
+  tumblr: #username
+  pinterest: #username
+  foursquare: #username
+  steam: #username
+  dribbble: #username
+  youtube: #username
+  soundcloud: #username
+  weibo: #username
+  flickr: #username
+
+include: [".htaccess"]
+exclude: ["lib", "config.rb", "Capfile", "config", "log", "Rakefile", "Rakefile.rb", "tmp", "less", "*.sublime-project", "*.sublime-workspace", "test", "spec", "Gruntfile.js", "package.json", "node_modules", "Gemfile", "Gemfile.lock", "LICENSE", "README.md"]
