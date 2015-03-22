@@ -7,7 +7,6 @@ comments: true
 tags: [single crossing property, korrelation, monotone comparative statics, economic methods, danish ]
 ---
 
-
 I økonomi er vi ofte interesseret i at kunne fastslå korrelation mellem variable. Topkis 1998[^1] har citeret Samuelson (1947) for følgende
 
 > In my opinion the problem of complementarity has received more attention than is merited by its intrinsic importance
