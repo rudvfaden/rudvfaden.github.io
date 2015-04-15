@@ -4,6 +4,7 @@ title: "Histogram misbrug"
 modified: ""
 excerpt: "Vuder fordelingen af data ved hjælp at histogram"
 tags: [econometrics, histogram,danish]
+comments: true
 ---
 
 Da jeg læste økonomi, brugte vi hele tiden histogrammer til at vurdere om fejlleddet på en regression var normalfordelt. Måske fordi SAS, som var standart programmet dengang, spyttede dem ud automatisk. I dag bliver histogrammer stadigt hyppigt brugt til at vurdere fordelingen af observationer. 

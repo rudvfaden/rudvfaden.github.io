@@ -4,7 +4,7 @@ title: A New Latex Macro
 tags: [latex,macro]
 excerpt: Towards a general partial derivative macro
 modified: 
-comment: true
+comments: true
 ---
 
 In a recent attempt to make a general partial derivative macro i came across the [xparse package](https://www.ctan.org/pkg/xparse?lang=en). 
