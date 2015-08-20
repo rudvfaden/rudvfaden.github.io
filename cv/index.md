@@ -24,7 +24,10 @@ Health Economics, Microeconomics, Game Theory and Micro-econometrics
 **Økonomiske principper og sundhedsøkonomi**, Public Health Science, TA (fall 2013)
 
 ## Experience
-
+**The Capital Region of Denmark**<br/>
+*Consultant, 2015-present*<br/><br/>
+**University of Copenhagen**<br/>
+*Phd student, 2013-2015* I did reaserch in health economics<br/><br/> 
 **The Organization of General Practitioners**<br/>
 *Student Assistant, Copenhagen, 2011 - 2013*. My job is to supply data and analyzes to the senior analyst, help write reports and make statistical analysis of relevant data<br/><br/>
 **The Danish Health and Medicines Authority**<br/>

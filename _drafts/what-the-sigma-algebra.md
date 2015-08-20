@@ -1,6 +1,6 @@
 ---
 layout: post
-title: What the sigma algebra
+title: What the sigma algebra!
 tags: [math,set theory]
 comments: true
 excerpt: 
