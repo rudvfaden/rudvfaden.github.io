@@ -48,7 +48,7 @@ Health Economics, Microeconomics, Game Theory and Micro-econometrics
 ## Education
 
 **Ph.D. Student** <br/>
-*Department of Economics, University of Copenhagen, 2013-present.*<br/><br/>
+*Department of Economics, University of Copenhagen, 2013-2015.*<br/><br/>
 **MSc. in Economics**<br/>
 *Department of Economics, University of Copenhagen, 2011-2013.*<br/><br/>
 **Exchange student**<br/>
