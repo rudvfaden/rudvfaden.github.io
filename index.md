@@ -1,4 +1,4 @@
 ---
 layout: home
-excerpt: "Random ramblings from a PhD. student"
+excerpt: "Random ramblings from a economist"
 ---
