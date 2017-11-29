@@ -1,4 +1,5 @@
 # Site wide configuration
+remote_theme: "mmistakes/minimal-mistakes"
 
 title:            Rud Faden
 locale:           en_US
