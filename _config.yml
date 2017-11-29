@@ -1,6 +1,9 @@
 # Site wide configuration
 remote_theme: "mmistakes/minimal-mistakes"
 
+plugins:
+  - jekyll-remote-theme
+  
 title:            Rud Faden
 locale:           en_US
 url:              http://rudvfaden.github.io
