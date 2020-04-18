@@ -5,6 +5,7 @@ modified:
 excerpt: "Custom function to illustrate Bayesian updating with normal prior"
 tags: [R, Bayes, Bayesian Updating, Simulation, R function]
 comments: true
+mathjax: true
 ---
 
 # Normal Likelihood with Normal Prior
