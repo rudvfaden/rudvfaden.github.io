@@ -8,9 +8,9 @@ comments: true
 ---
 
 
-[Impressive](http://impressive.sourceforge.net/) is is a program  that displays pdf presentation slides in style. If you use beamer to create presentation it is a must have.
+[Impressive](http://impressive.sourceforge.net/) is a program  that displays pdf presentation slides in style. If you use beamer to create presentation it is a must have.
 
-Usually it works by running the command `impressive [path/filename]` in the terminal/command promt. However, when you are stressed out and standing infront of a crowd, it is not always the fastest way to use the app. 
+Usually it works by running the command `impressive [path/filename]` in the terminal/command promt. However, when you are stressed out and standing infront of a crowd, it is not always the fastest way to use the app.
 
 In Elementary OS, one can modify the contextual file menu in  pantheon-files by using the following code
 
