@@ -1,10 +1,8 @@
 ---
-layout: post
 title: "The ultimate Latex setup"
 modified: "2014-10-10"
 excerpt: "Writing LaTeX with  Sublime Text, LaTeXing and git"
 tags: [latex,sublime text, git]
-comments: true
 ---
 <section id="table-of-contents" class="toc">
   <header>
@@ -15,14 +13,14 @@ comments: true
 {:toc}
 </div>
 </section><!-- /#table-of-contents -->
-[Sublime Text](http://www.sublimetext.com/) is an awesome text editor. Unlike editors like Vim and Emacs, which are very powerful, but also very difficult to learn (If you don't believe me, please read this [post](http://dorinlazar.ro/selling-vim-emacs-kids/) by Dorin Lazăr). Sublime Text has a very low entry barrier. Just fire it up and you are pretty much ready to go. But don't be fooled. Sublime Text is very advanced. I would argue that for most users, Sublime Text has all the features you need. The downside is that Sublime Text is not free like Vim and Emacs. In fact, at $70, the price is rather steep. But when you first figured out some of the more advanced features of Sublime Text, it's hard to go back to other text editors. Some of the features of Sublime Text are 
+[Sublime Text](http://www.sublimetext.com/) is an awesome text editor. Unlike editors like Vim and Emacs, which are very powerful, but also very difficult to learn (If you don't believe me, please read this [post](http://dorinlazar.ro/selling-vim-emacs-kids/) by Dorin Lazăr). Sublime Text has a very low entry barrier. Just fire it up and you are pretty much ready to go. But don't be fooled. Sublime Text is very advanced. I would argue that for most users, Sublime Text has all the features you need. The downside is that Sublime Text is not free like Vim and Emacs. In fact, at $70, the price is rather steep. But when you first figured out some of the more advanced features of Sublime Text, it's hard to go back to other text editors. Some of the features of Sublime Text are
 
 - Goto Anything
 - Multiple Selections and columns selection
 - Instant Project Switch
 - Customization via packages
 
-I use Sublime mostly for LaTeX and programming in Stata, R, Matlab etc. In this post I will show how to setup sublime to work with LaTeX. 
+I use Sublime mostly for LaTeX and programming in Stata, R, Matlab etc. In this post I will show how to setup sublime to work with LaTeX.
 
 ## Package control
 
@@ -36,7 +34,7 @@ import urllib.request,os,hashlib; h = '7183a2d3e96f11eeadd761d777e62404' + 'e330
 
 Generally there are two ways to go if you want to work with LaTeX in Sublime Text. [LaTeXing](http://www.latexing.com/) and [LaTeXTools](https://github.com/SublimeText/LaTeXTools).
 
-LaTeXTools is free an open source. It has a lot of features and works very well, but it misses some features like code completion and project management. LaTeXing cost $15 + vat, but it is more advanced than LaTeXTools. It has code completion, import references from online services, like Mendeley or Zotero, automatic fill of cross references and packages, easy look up packages and a lot more. The install process is very similar for both. So if you wanna use LaTeXTools, just replace LaTeXing with LaTeXTool below.  
+LaTeXTools is free an open source. It has a lot of features and works very well, but it misses some features like code completion and project management. LaTeXing cost $15 + vat, but it is more advanced than LaTeXTools. It has code completion, import references from online services, like Mendeley or Zotero, automatic fill of cross references and packages, easy look up packages and a lot more. The install process is very similar for both. So if you wanna use LaTeXTools, just replace LaTeXing with LaTeXTool below.
 
 ### Installing LaTeXing
 
@@ -44,7 +42,7 @@ The following assumes that you have a working latex installation like TeXlive, M
 
 - First press `C+shift+p` to launch the command pallet (C is `cmd` on mac and `ctrl` on Windows/Linux).
 - Type `install packages` and type `enter`.
-- Them search for LaTeXing and select it with `enter` or the mouse. 
+- Them search for LaTeXing and select it with `enter` or the mouse.
 
 After installing LaTeXing you should enter the licens and read the documentation.
 
@@ -59,7 +57,7 @@ I previously used LyX a lot. One of the thing i really liked was the ability to 
 {"keys": ["ctrl+m"], "command": "insert_snippet","args": {"contents": "\\$$1\\$","scope": "text.tex.latex"}},
 {% endhighlight %}
 
-The `"keys": ["ctrl+shift+m"]` part assigns the key-binding. The `"command": "insert_snippet","args": {"contents":` tells Sublime Text that you want to insert a snippet, and the last part `"\\[\n\t$1\n\\]"}}` is the snippet. 
+The `"keys": ["ctrl+shift+m"]` part assigns the key-binding. The `"command": "insert_snippet","args": {"contents":` tells Sublime Text that you want to insert a snippet, and the last part `"\\[\n\t$1\n\\]"}}` is the snippet.
 
 #### Assigning key bindings to longer snippets
 
@@ -94,7 +92,7 @@ While the snippet can be invoked with the tab trigger `cenv+tab`  it is faster t
 
 where again `ctrl+shift+e` is the assigned key-binding and `Packages/User/latex-snippets/enviroment-w-comment.sublime-snippet` is the path of the snippet, relative to the sublime install directory.
 
-In my setup I also assigned the `ctrl+e` key to a snippet that inserts a environment without comment. E.i.  
+In my setup I also assigned the `ctrl+e` key to a snippet that inserts a environment without comment. E.i.
 
 {% highlight html %}
 <snippet>
@@ -112,27 +110,27 @@ $3
 
 ## Using git and GitHub to version control and collaborate.
 
-Git is a version control system developed by Linus Thorvaldsen. The creator of the Linux kernel. It is very powerful and can seem very complicated at first glance. However, for Git to be useful you only need to learn about 10. If you never used git before, I would suggest that you watch the foundations video on the GitHub teams [Youtube channel](https://www.youtube.com/channel/UCP7RrmoueENv9TZts3HXXtw). 
+Git is a version control system developed by Linus Thorvaldsen. The creator of the Linux kernel. It is very powerful and can seem very complicated at first glance. However, for Git to be useful you only need to learn about 10. If you never used git before, I would suggest that you watch the foundations video on the GitHub teams [Youtube channel](https://www.youtube.com/channel/UCP7RrmoueENv9TZts3HXXtw).
 
 GitHub is a tool to store and share your code online. You can get a free account as long as your projects are public. If you want to store them privately you have to pay. To setup your GitHub account, just go to [GitHub.com](GitHub.com) and follow the instructions.
 
 ### Using Git and GitHub in Sublime Text
 
-To use git and GitHub in sublime text you have to install Git form package control. Just follow the instruction in the *Installing LaTeXing* section and replace Git with LaTeXing. 
+To use git and GitHub in sublime text you have to install Git form package control. Just follow the instruction in the *Installing LaTeXing* section and replace Git with LaTeXing.
 
-After that the first thing you wanna to is to tell git to start tracking you files. In Sublime Text open the command pallet `C+shift+p` and write `Git: Init`. This will create a invisible `.git` folder i your project folder. 
+After that the first thing you wanna to is to tell git to start tracking you files. In Sublime Text open the command pallet `C+shift+p` and write `Git: Init`. This will create a invisible `.git` folder i your project folder.
 
 When this is done write `Git: Status` to start see your project status. The should show you this.
 <br/><br/>
 ![Git Status](../images/posts/git-status.png "Git Status")
 <br/><br/>
-From here you can stage and commit your file with keyboard shortcuts. 
+From here you can stage and commit your file with keyboard shortcuts.
 
 After committing your files you want to push them to GitHub. To do that, first you have to tell git where to send your files. Type `Git: Add Remote` and press `enter`. Git will then ask you to give your remote connection a name (typically you would call it `origin`) and the path to your GitHub repository.
-Then type `Git: Push` to push your project to GitHub. 
+Then type `Git: Push` to push your project to GitHub.
 
-You can then share and collaborate with others. This is specially useful if you are working on a large project with others. 
+You can then share and collaborate with others. This is specially useful if you are working on a large project with others.
 
->NB: To get the full benefit of Git and GitHub you should read and watch some of the many instruction videos. 
+>NB: To get the full benefit of Git and GitHub you should read and watch some of the many instruction videos.
 
 If you have any questions about my setup, please write me.

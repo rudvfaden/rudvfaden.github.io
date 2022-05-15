@@ -1,11 +1,9 @@
 ---
-layout: post
 title: "Skal jeg differentiere for at kunne sige noget klogt i økonomi?"
 modified: 2015-02-22
 excerpt: "Monotone Comparative Statics: kunsten at fastslå korrelation under 'svagere' antagelser"
 comments: true
 tags: [single crossing property, korrelation, monotone comparative statics, economic methods, danish ]
-comments: true
 mathjax: true
 ---
 

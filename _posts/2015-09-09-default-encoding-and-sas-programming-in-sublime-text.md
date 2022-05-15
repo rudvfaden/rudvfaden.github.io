@@ -1,12 +1,9 @@
 ---
-layout: post
 title: Default encoding and SAS programming in Sublime Text
 tags: [sublime text, SAS]
-modified:
 excerpt: How different encoding can affect your SAS output and how to solve it
-comments: true
 image:
-    feature: posts/encoding_sas.png
+    feature: ../images/encoding_sas.png
 ---
 
 Recently I encountered a rather weird problem when programming a report in SAS. All my Danish letters æ,ø,å had changed into weird symbols. While I had similar problems in other programs like R and LaTeX I never experienced any problems with SAS. After hours of debugging I realized that the problem was with the encoding differences between SAS and Sublime Text. The problem was occurred because I combined programs written in SAS which uses `Western (Windows 1252)` as encoding and SAS which uses `UTF-8`.

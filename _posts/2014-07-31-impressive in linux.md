@@ -1,10 +1,8 @@
 ---
-layout: post
 title: "Add Open with Impressive to Elementary OS context menu."
 modified:
 excerpt: "A post about how to run impressive from the context menu"
 tags: [impressive, linuxl elementary os]
-comments: true
 ---
 
 
