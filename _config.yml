@@ -67,7 +67,7 @@ author:
     #  icon: "fas fa-fw fa-link"
     #  url: "https://"
     - label: "Linkedin"
-      icon: "fa-brands fa-linkedin"
+      icon: "fab fa-fw fa-linkedin-in"
       url: "https://www.linkedin.com/in/rudfaden/"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
