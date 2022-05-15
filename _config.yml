@@ -3,7 +3,7 @@ remote_theme: "mmistakes/minimal-mistakes"
 
 plugins:
   - jekyll-remote-theme
-  
+
 title:            Rud Faden
 locale:           en_US
 url:              https://rudvfaden.github.io
@@ -25,7 +25,7 @@ kramdown:
   footnote_nr: 1
   entity_output: as_char
   toc_levels: 1..6
-  use_coderay: false
+  enable_coderay': true
 
 
 # Site owner
@@ -38,12 +38,12 @@ owner:
   twitter: rudfaden
   facebook: rudfaden
   google:
-    plus: 
+    plus:
     analytics: UA-55602000-1
     verify: MgE8SEZZuZ5z_vuXmf5Ivew1ICkPkdFpcmdaMyo9ojo
-    ad-client: 
-    ad-slot: 
-  bing-verify: 
+    ad-client:
+    ad-slot:
+  bing-verify:
   github: rudvfaden
   stackoverflow: /2702600/rud-faden
   linkedin: rudfaden
