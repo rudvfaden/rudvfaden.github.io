@@ -1,10 +1,7 @@
 ---
-layout: post
 title: "Simulating Bayesian Updating in R"
-modified:
 excerpt: "Custom function to illustrate Bayesian updating with normal prior"
 tags: [R, Bayes, Bayesian Updating, Simulation, R function]
-comments: true
 mathjax: true
 ---
 
@@ -18,7 +15,7 @@ Often, it is useful to simulate the Bayesian updating process, to study how the 
 # data: A vector of data
 # mu: a prior mean
 # tau2 a prior variance
-# plot: FALSE - return a matrix with mean and variance, 
+# plot: FALSE - return a matrix with mean and variance,
 #       TRUE - return a plot of the prior, likelihood and posterior
 ##############################################################
 baysian_updating <- function(data,mu,tau2,plot=FALSE) {
@@ -58,7 +55,7 @@ if(plot==TRUE){
          + ggtitle("Baysian updating")
          + geom_line()+theme(legend.title=element_blank()))
     } else {
-    Nor <- matrix(c(pom,pov), nrow=1, ncol=2, byrow = TRUE)     
+    Nor <- matrix(c(pom,pov), nrow=1, ncol=2, byrow = TRUE)
     return(Nor)
     }
 }
@@ -75,7 +72,7 @@ For instance, suppose 10 observations are coming from $N(\theta,100)$ . Assume t
 dat <- 10*rnorm(10) # generate normal data
 df <- baysian_updating(dat,20,20,plot=TRUE)
 df
-{% endhighlight %}  
+{% endhighlight %}
 
 ![Baysian updating](https://lh3.googleusercontent.com/-n6jj0gplKt0/U4jAwe8Vl5I/AAAAAAAAq2c/f_7bmoJxKH8/s0/Rplot.png "Optional title")
 
@@ -91,7 +88,7 @@ set.seed(1)
 j<-0
 colors <- rainbow(10)
 labels=c()
-for(i in seq(100,500,50)){ 
+for(i in seq(100,500,50)){
   j<-j+1
   dat <- 10*rnorm(i) # generate normal data
   df<- baysian_updating(dat,5,5)
@@ -125,10 +122,10 @@ j<-0
 colors <- rainbow(sims) #generate colors
 pom <- 10 # prior mean
 pov <- 10 # prior variance
-df <-  matrix(c(pom,pov), nrow=1, ncol=2, byrow = TRUE) 
+df <-  matrix(c(pom,pov), nrow=1, ncol=2, byrow = TRUE)
 dat <- 10*rnorm(10) # generate normal data
 
-for(i in seq(1,sims,1)){ 
+for(i in seq(1,sims,1)){
   j<-j+1
   if(j==1){
   df<- baysian_updating(dat,pom,pov)
