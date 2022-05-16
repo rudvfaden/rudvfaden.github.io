@@ -54,6 +54,10 @@ plugins:
   - jemoji
   - jekyll-include-cache
 
+after_footer_scripts:
+  - https://cdn.jsdelivr.net/npm/clipboard@2/dist/clipboard.min.js
+  - assets/js/clipboardrouge.js
+
 author:
   name   : "Rud Faden"
   avatar : "/assets/images/bio-photo.jpg"
