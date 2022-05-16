@@ -3,7 +3,7 @@ permalink: /about/
 title: "About"
 ---
 
-My name is Rud. I currently work at Jyske Bank in Denmark. The third larges Danish bank.
-I work as a dataengenieer. That means the i design and maintain our companyes datawarehouse. I foucs on designing functional, consistent and easily maintaineble data solutions.
+My name is Rud. I currently work at Jyske Bank in Denmark. The third-largest Danish bank.
+I work as a data engineer. That means that I design and maintain our company's data warehouse. I focus on designing functional, consistent, and easily maintainable data solutions.
 
-I am educated as an eocnomist from the Unniversity of Copenhagen. But I have worked primaerly as a data enginieer for the last then years. First at the Capital Region in Copenhagen and from aug. 2021 in Jyske Bank.
+I am educated as an economist at the University of Copenhagen. But I have worked primarily as a data engineer for the last ten years. First at the Capital Region in Copenhagen and from Aug. 2021 in Jyske Bank.
